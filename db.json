@@ -1,0 +1,28 @@
+{
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "João Silva",
+      "num_inscricao": "4485255",
+      "curso": "Informática"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Santos",
+      "num_inscricao": "4485256",
+      "curso": "Redes"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Santos",
+      "num_inscricao": "4485256",
+      "curso": "Redes"
+    },
+    {
+      "nome": "verdade",
+      "curso": "verdade",
+      "num_inscricao": "2",
+      "id": 3
+    }
+  ]
+}

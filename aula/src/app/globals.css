@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+nav{
+    background-color: white;
+    height: 50px;
+}
+
+nav ul{
+   display: flex;
+   margin-left: 45px;
+}
+
+nav ul li{
+  padding:5px 55px 15px 0px;
+}
+
+#rota{
+  color:black;
+  font-size: 18px;
+}
+
+#rota:hover{
+   text-decoration:underline;
+}
+
+form{
+  display: flex;
+  gap:5px;
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: white 3px 2px 4px 8px;
+  align-items: center;
+  align-self: center;
+  flex-direction: column;
+  font-size: 20px;
+  color: white;
+  width: 50%;
+  background-color: black;
+  opacity: 90%;
+}
+
+#campo{
+    margin-bottom: 15px;
+    height: 30px;
+    color:black;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: white 2px 2px 4px 4px;
+}
+
+.cadastro{
+          display: flex;
+          justify-content: center;
+}
+
+.exibicao{
+  display: flex;
+  justify-content: center;
+  box-shadow: white 2px 4px 2px 0px;
+}
+
+#remover{
+         margin-left: 52px;
+         background-color: aliceblue;
+         color: black;
+         text-decoration: none;
+         border-radius: 3px;
+         font-size: 18px;
+         margin-bottom:25px;
+}
+
+#titulo{
+        font-size: 30px;
+        padding: 24px 0px 24px 0px;
+        font-weight: bold;
+}
+
+#cadastrar{
+  color: black;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 18px;
+  margin-bottom:25px;
+  background-color: white;
+  box-shadow: white 2px 2px 2px 4px;
+}
+
+.pessoas{
+ text-align: center;
+ display: grid;
+ background-color:black;
+ gap: 50px;
+ color: white;
+ border-radius: 5px;
+}
